@@ -559,10 +559,6 @@
                   <h6>2023 – Present</h6>
                   <p><em>Northeastern University, Boston, MA</em></p>
                   <p class="mb-2"><strong>GPA:</strong> 3.97/4.00</p>
-                  <p class="mb-0">
-                    <strong>Relevant Coursework:</strong> Probability and Statistics, 
-                    Database Management Systems, Data Mining Applications, Data Visualization
-                  </p>
                 </div>
                 <!-- Marker -->
                 <div class="position-absolute" style="
@@ -589,9 +585,7 @@
                   <h6>2017 – 2020</h6>
                   <p><em>Guru Gobind Singh Indraprastha University, Delhi, India</em></p>
                   <p class="mb-2"><strong>CGPA:</strong> 3.23/4.00</p>
-                  <p class="mb-0">
-                    <strong>Relevant Coursework:</strong> Computer Applications, Business Mathematics, Financial Accounting and Analysis, Business Analytics
-                  </p>
+
                 </div>
                 <!-- Marker -->
                 <div class="position-absolute" style="
@@ -697,16 +691,31 @@
         <div class="isotope-layout" data-default-filter="*" data-layout="masonry" data-sort="original-order">
           <ul class="portfolio-filters isotope-filters" data-aos="fade-up" data-aos-delay="100">
             <li data-filter="*" class="filter-active">All</li>
-            <li data-filter=".filter-ai">AI/ML</li>
-            <li data-filter=".filter-analytics">Analytics</li>
-            <li data-filter=".filter-bi">Business Intelligence</li>
-            <li data-filter=".filter-bigdata">Big Data</li>
+            <li data-filter=".filter-analytics">Visualizations & Analytics</li>
+            <li data-filter=".filter-ml">Machine Learning & AI</li>
+            <li data-filter=".filter-elt">Data Engineering & ELT</li>
           </ul>
 
           <div class="row gy-4 isotope-container" data-aos="fade-up" data-aos-delay="200">
+
+            <!-- Allagash Brewery Logistics Analytics -->
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-analytics">
+              <div class="portfolio-content h-100">
+                <img src="assets/img/portfolio/brewery_dashboard.png" class="img-fluid" alt="Allagash Logistics Analytics">
+                <div class="portfolio-info">
+                  <h4>Brewery Logistics Analytics Dashboard</h4>
+                  <p>Shipment Optimization & Smart Truck Recommender</p>
+                  <div class="portfolio-links">
+                    <a data-bs-toggle="modal" data-bs-target="#portfolioModalAllagash" class="preview-link" title="Preview"><i class="bi bi-plus"></i></a>
+                    <a href="https://github.com/sanchigupta12/brewery-logistics-analytics-dashboard" class="details-link" title="GitHub Repository"><i class="bi bi-github"></i></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
       
             <!-- University Explorer AI Chatbot -->
-            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-ai">
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-ml">
               <div class="portfolio-content h-100">
                 <img src="assets/img/portfolio/chatbot.jpg" class="img-fluid" alt="AI Chatbot">
                 <div class="portfolio-info">
@@ -736,9 +745,9 @@
             </div> -->
 
             <!-- Chicago Traffic Crash Analysis -->
-            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-bigdata">
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-analytics filter-elt">
               <div class="portfolio-content h-100">
-                <img src="assets/img/portfolio/carcrash.jpg" class="img-fluid" alt="Traffic Analysis">
+                <img src="assets/img/portfolio/ChicagoTrafficCrashPipeline.png" class="img-fluid" alt="Traffic Analysis">
                 <div class="portfolio-info">
                   <h4>Chicago Traffic Crash Analysis</h4>
                   <p>Big Data Analysis with Spark</p>
@@ -751,9 +760,9 @@
             </div>
 
             <!-- Hospital ER Dashboard -->
-            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-bi">
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-analytics filter-elt">
               <div class="portfolio-content h-100">
-                <img src="assets/img/portfolio/hospital.jpg" class="img-fluid" alt="Hospital Dashboard">
+                <img src="assets/img/portfolio/Healthacre_Dashboard.png" class="img-fluid" alt="Hospital Dashboard">
                 <div class="portfolio-info">
                   <h4>Hospital Emergency Room Dashboard</h4>
                   <p>Power BI Analytics</p>
@@ -766,7 +775,7 @@
             </div>
 
             <!-- Student Math Scores Prediction -->
-            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-ai">
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-ml">
               <div class="portfolio-content h-100">
                 <img src="assets/img/portfolio/mathscore.jpg" class="img-fluid" alt="Student Prediction">
                 <div class="portfolio-info">
@@ -783,7 +792,7 @@
             <!-- A/B Testing Analysis -->
             <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-analytics">
               <div class="portfolio-content h-100">
-                <img src="assets/img/portfolio/A:B test.jpg" class="img-fluid" alt="AB Testing">
+                <img src="assets/img/portfolio/A:B Pipeline.jpg" class="img-fluid" alt="AB Testing">
                 <div class="portfolio-info">
                   <h4>A/B Testing Case Study</h4>
                   <p>Statistical Analysis</p>
@@ -859,6 +868,48 @@
     </section>
 
     <!-- Portfolio Modals -->
+
+    <!-- Modal: Allagash Brewery Logistics Analytics -->
+      <div class="modal fade" id="portfolioModalAllagash" tabindex="-1" aria-hidden="true">
+        <div class="modal-dialog modal-lg modal-dialog-centered">
+          <div class="modal-content">
+            <div class="modal-header border-0">
+              <h5 class="modal-title">Brewery Logistics Analytics Dashboard</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <div class="container">
+                <div class="row">
+                  <div class="col-md-5">
+                    <img src="assets/img/portfolio/brewery_dashboard.png" class="img-fluid rounded-3 mb-4 mb-md-0" alt="Project Image" >
+                  </div>
+                  <div class="col-md-7">
+                    <p>A logistics optimization solution for Allagash Brewing Company that combines a Smart Truck Recommender app with interactive Power BI dashboards to improve shipping efficiency and reduce costs.</p>
+                    <ul class="list-unstyled">
+                      <li><i class="bi bi-check-circle-fill text-primary me-2"></i>Developed a Streamlit web app that recommends truck type (Dry vs Temperature-Controlled) based on weather forecasts and routes</li>
+                      <li><i class="bi bi-check-circle-fill text-primary me-2"></i>Built Power BI dashboards tracking freight costs, pallet utilization, and route efficiency</li>
+                      <li><i class="bi bi-check-circle-fill text-primary me-2"></i>Integrated Google Maps API and OpenWeather API for real-time routing and temperature analysis</li>
+                    </ul>
+                    <div class="mt-4">
+                      <span class="badge bg-primary me-2">Power BI</span>
+                      <span class="badge bg-primary me-2">Streamlit</span>
+                      <span class="badge bg-primary me-2">APIs</span>
+                      <span class="badge bg-primary">Logistics Optimization</span>
+                    </div>
+                    <div class="mt-3">
+                      <a href="https://github.com/sanchigupta12/brewery-logistics-analytics-dashboard"
+                        target="_blank" class="btn btn-outline-primary">
+                        View GitHub Repository
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
     <!-- Modal 1: University Explorer AI Chatbot -->
     <div class="modal fade" id="portfolioModal1" tabindex="-1" aria-hidden="true">
       <div class="modal-dialog modal-lg modal-dialog-centered">
@@ -942,7 +993,7 @@
             <div class="container">
               <div class="row">
                 <div class="col-md-5">
-                  <img src="assets/img/portfolio/carcrash.jpg" class="img-fluid rounded-3 mb-4 mb-md-0" alt="Project Image">
+                  <img src="assets/img/portfolio/Dashboard Screenshot.png" class="img-fluid rounded-3 mb-4 mb-md-0" alt="Project Image">
                 </div>
                 <div class="col-md-7">
                   <p>Analyzed over 2 million traffic crash records using Spark and SQL to reveal patterns in crash severity, lighting, and time of day across Chicago.</p>
@@ -985,7 +1036,7 @@
             <div class="container">
               <div class="row">
                 <div class="col-md-5">
-                  <img src="assets/img/portfolio/hospital.jpg" class="img-fluid rounded-3 mb-4 mb-md-0" alt="Project Image">
+                  <img src="assets/img/portfolio/Healthacre_Dashboard.png" class="img-fluid rounded-3 mb-4 mb-md-0" alt="Project Image">
                 </div>
                 <div class="col-md-7">
                   <p>Developed an interactive Power BI dashboard to track ER patient flow, wait times, and admission rates, supporting hospital efficiency improvements.</p>
@@ -1056,7 +1107,7 @@
             <div class="container">
               <div class="row">
                 <div class="col-md-5">
-                  <img src="assets/img/portfolio/A:B test.jpg" class="img-fluid rounded-3 mb-4 mb-md-0" alt="Project Image">
+                  <img src="assets/img/portfolio/A:B Pipeline.jpg" class="img-fluid rounded-3 mb-4 mb-md-0" alt="Project Image">
                 </div>
                 <div class="col-md-7">
                   <p>Designed and analyzed a simulated A/B test to evaluate changes in website performance based on user engagement across two designs.</p>
