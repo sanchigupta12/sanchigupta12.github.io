@@ -1040,6 +1040,16 @@ section,
   background-color: var(--accent-color);
 }
 
+.certificate-box::before {
+  pointer-events: none !important;
+}
+
+.certificate-box a {
+  position: relative;
+  z-index: 5;
+}
+
+
 /*--------------------------------------------------------------
 # Contact Section
 --------------------------------------------------------------*/
