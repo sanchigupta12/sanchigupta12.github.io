@@ -1135,6 +1135,51 @@
   margin-bottom: 0.8rem !important;  /* was 2rem */
 }
 
+.focus-badge {
+  display: inline-block;
+  background: linear-gradient(135deg, #0563bb, #1e90ff);
+  color: #fff;
+  font-size: 0.8rem;
+  font-weight: 600;
+  padding: 4px 10px;
+  border-radius: 20px;
+  margin-right: 8px;
+}
+
+.focus-text {
+  color: #6c757d;
+  font-size: 0.9rem;
+}
+
+.about p {
+  max-width: 750px;
+  margin: 0 auto 18px;
+  line-height: 1.6;
+}
+
+.hero-content {
+  max-width: 650px;
+}
+
+.hero-content h1 {
+  margin-bottom: 10px;
+}
+
+.hero-content h2 {
+  margin-bottom: 14px;
+}
+
+.hero-content p {
+  margin-bottom: 22px;
+  line-height: 1.5;
+}
+
+.hero-content h2 {
+  font-weight: 500;
+}
+
+
+
 
   </style>
 
@@ -1158,7 +1203,7 @@
     <div class="social-links text-center">
       <a href="https://github.com/sanchigupta12" class="github" target="_blank"><i class="bi bi-github"></i></a>
       <a href="https://www.linkedin.com/in/sanchi-gupta99" class="linkedin" target="_blank"><i class="bi bi-linkedin"></i></a>
-      <a href="mailto:gupta.sanch99@gmail.com" class="email"><i class="bi bi-envelope"></i></a>
+      <a href="mailto:sanchigupta0412@gmail.com" class="email"><i class="bi bi-envelope"></i></a>
     </div>
     
 
@@ -1175,13 +1220,13 @@
           </a>
           <ul>
             <!-- View Resume -->
-            <li><a href="assets/resume/SanchiGupta_Resume.pdf" target="_blank">
+            <li><a href="assets/resume/SanchiGupta_DataAnalyst.pdf" target="_blank">
                 <i class="bi bi-eye me-2"></i> View Resume
               </a>
             </li>
         
             <!-- Download Resume -->
-            <li><a href="assets/resume/SanchiGupta_Resume.pdf" download>
+            <li><a href="assets/resume/SanchiGupta_DataAnalyst.pdf" download>
                 <i class="bi bi-download me-2"></i> Download Resume</a>
             </li>
           </ul>
@@ -1192,7 +1237,7 @@
           </a>
           <ul>
             <li>
-              <a href="mailto:gupta.sanch99@gmail.com">
+              <a href="mailto:sanchigupta0412@gmail.com">
                 <i class="bi bi-envelope me-2"></i> Mail
               </a>
             </li>
@@ -1219,34 +1264,52 @@
 
   <main class="main">
 
-    <!-- Hero Section -->
-    <section id="hero" class="hero section dark-background position-relative" style="padding: 30px 0;">
+     <!-- Hero Section -->
+  <section id="hero" class="hero section dark-background position-relative py-5">
 
-      <div class="hero-bg" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; background: linear-gradient(45deg, rgba(5, 99, 187, 0.8), rgba(0, 0, 0, 0.8)); z-index: 1;"></div>
-      <div class="container position-relative" style="padding-top: 30px; padding-bottom: 30px; z-index: 2;" data-aos="fade-up" data-aos-delay="100">
+    <div class="hero-bg position-absolute top-0 start-0 w-100 h-100"
+         style="background: linear-gradient(45deg, rgba(5, 99, 187, 0.8), rgba(0, 0, 0, 0.8)); z-index: 1;">
+    </div>
 
-        <div class="row align-items-center">
-          <div class="col-lg-6">
-            <h1 class="display-4 fw-bold mb-3" style="margin-bottom: 1rem;">Sanchi Gupta</h1>
-            <h3 class="mb-4" style="margin-bottom: 1rem;">I'm a <span class="typed" data-typed-items="Data Analyst, BI Analyst, Data Engineer"></span></h3>
-            <p class="lead mb-4 text-white" style="font-size: 1.25rem; font-weight: 500; text-shadow: 2px 2px 4px rgba(0,0,0,0.7);">Transforming data into actionable insights through advanced analytics and machine learning.</p>
-            <div class="d-flex gap-2">
-              <a href="#portfolio" class="btn btn-primary btn-lg rounded-pill">View My Work</a>
-              <a href="#contact" class="btn btn-outline-light btn-lg rounded-pill">Get in Touch</a>
-            </div>
+    <div class="container position-relative z-2" data-aos="fade-up" data-aos-delay="100">
+
+      <div class="row align-items-center">
+        <div class="col-lg-6 hero-content">
+
+          <h1 class="display-4 fw-bold mb-2">Sanchi Gupta</h1>
+
+          <h3 class="mb-3">
+            I'm a <span class="typed" data-typed-items="Data Analyst, BI Analyst, Unified Analyst"></span>
+          </h3>
+
+          <p class="lead text-white hero-subtitle">
+            Transforming data into actionable insights through analytics,
+            dashboards, and data-driven decision support.
+          </p>
+
+          <div class="d-flex gap-3 mt-4">
+            <a href="#portfolio" class="btn btn-primary btn-lg rounded-pill">View My Work</a>
+            <a href="#contact" class="btn btn-outline-light btn-lg rounded-pill">Get in Touch</a>
           </div>
-          <div class="col-lg-6 d-none d-lg-block">
-            <div class="hero-image" style="position: relative;">
-              <div class="floating-shapes">
-                <div class="shape shape-1"></div>
-                <div class="shape shape-2"></div>
-              </div>
-              <img src="assets/img/my-profile-img.jpg" alt="Profile" class="img-fluid rounded-circle shadow-lg" style="max-width: 100px;">
+
+        </div>
+
+        <div class="col-lg-6 d-none d-lg-flex justify-content-center">
+          <div class="hero-image position-relative">
+            <div class="floating-shapes">
+              <div class="shape shape-1"></div>
+              <div class="shape shape-2"></div>
             </div>
+            <img src="assets/img/my-profile-img.jpg"
+                 alt="Profile"
+                 class="img-fluid rounded-circle shadow-lg"
+                 style="max-width: 180px;">
           </div>
         </div>
       </div>
-    </section><!-- /Hero Section -->
+
+    </div>
+  </section><!-- /Hero Section -->
 
     <style>
       .section-title h2 {
@@ -1278,22 +1341,25 @@
       <div class="container section-title" data-aos="fade-up">
         <h2 class="h3 mb-4">About</h2>
 
-  <p class="mb-3">
-    Data Analyst with 2+ years of experience turning complex datasets into actionable insights using
-    <strong>Power BI, Tableau, SQL, and Python</strong>.
-  </p>
+<p>
+I’m a Data Analyst with over 2 years of experience working with business and operational data,
+primarily using Power BI, Tableau, SQL, and Python.
+</p>
 
-  <p class="mb-3">
-    Skilled in <strong>data modeling, forecasting, KPI development</strong>, and building
-    <strong>interactive dashboards</strong> that drive strategic decision-making.
-  </p>
+<p>
+My work focuses on building dashboards, defining KPIs, and analyzing trends that help teams
+make better data-driven decisions.
+</p>
 
-  <p class="mb-0">
-    <strong>PL-300 Certified</strong> and a recent Northeastern University graduate
-    (<em>STEM-designated Master’s in Analytics</em>), with measurable impact across
-    <strong>logistics optimization, dashboard design,</strong> and
-    <strong>large-scale data processing</strong>—translating data into insights that improve business outcomes.
-  </p>
+<p>
+I’m Microsoft Certified (Power BI Data Analyst Associate – PL-300) and a recent Northeastern University
+graduate, with hands-on experience across logistics analytics, sales & inventory reporting,
+and HR analytics.
+</p>
+
+
+
+
       </div><!-- End Section Title -->
 
     </section><!-- /About Section -->
@@ -1451,17 +1517,22 @@
               <h4 class="fw-bold">Data Analyst Intern</h4>
               <h5>Jan 2025 – Mar 2025</h5>
               <p><em>Allagash Brewing Company, Boston, MA</em></p>
+
+              <!-- Focus -->
+              <p class="mb-2">
+  <span class="focus-badge">Focus</span>
+  <span class="focus-text">
+    Logistics Analytics • Transportation KPIs • Power BI Reporting
+  </span>
+</p>
+
+
               <ul>
-                <li>Built a real-time truck recommendation system using weather and temperature data, reducing spoilage risk by 10% </li>
-
-                <li>Applied DBSCAN clustering to identify high-demand delivery zones and optimize distribution routes </li>
-
-                <li>Created ETL workflows in PySpark to process live delivery and weather data, storing results in Snowflake for scalable access </li>
-
-                <li>Developed Power BI dashboards that visualized costs, routes, and KPIs, helping reduce outbound shipping expenses by 10% </li>
-
-                <li>Collaborated with logistics teams to integrate analytics into day-to-day decision making, aligning insights with operational goals</li>
-                              
+                <li>Designed and maintained Power BI dashboards to track transportation spend, delivery timelines, and key logistics KPIs for operations teams</li>
+                <li>Developed a rule-based truck recommendation logic using shipment details and weather inputs to support decisions between standard and temperature-controlled trucks</li>
+                <li>Cleaned and prepared shipment, cost, and route data to ensure consistency and accuracy across logistics reports</li>
+                <li>Validated metrics and aligned KPI definitions with logistics stakeholders to support recurring operational reporting</li>
+                <li>Supported day-to-day logistics decision-making by troubleshooting data issues and refreshing dashboards</li>
               </ul>
             </div>
           </div>
@@ -1481,12 +1552,24 @@
               <h4 class="fw-bold">Data Analyst</h4>
               <h5>Jul 2022 – Aug 2023</h5>
               <p><em>Falcon Cables, New Delhi, India</em></p>
+
+              <!-- Focus -->
+              <p class="mb-2">
+                <span class="focus-badge">Focus</span>
+                <span class="focus-text">
+                  Sales Analytics • Inventory Reporting • Power BI Dashboards
+                </span>
+              </p>
+
+
               <ul>
-                <li>Analyzed sales and customer data to uncover trends and preferences, improving marketing efficiency by 7%</li>
-                <li>Designed and deployed interactive Power BI dashboards to optimize inventory tracking and sales performance monitoring</li> 
-                <li>Evaluated production and demand patterns, leading to an 8% improvement in resource allocation accuracy</li> 
-                <li>Partnered with cross-functional teams to translate KPIs into dashboards, enabling data-driven strategic decisions</li>
+                <li>Owned recurring sales and inventory reporting by maintaining Power BI dashboards used by sales and operations teams for daily and monthly performance tracking</li>
+                <li>Analyzed product-wise and region-wise sales trends alongside inventory movement to identify slow-moving items and potential stock-out risks</li>
+                <li>Acted as a data bridge between sales, inventory, and dispatch teams by reconciling datasets from multiple sources and resolving reporting discrepancies</li>
+                <li>Supported ad-hoc analysis requests from business stakeholders to answer questions around revenue trends, demand fluctuations, and inventory availability</li>
+                <li>Improved trust in reporting by standardizing metrics definitions and validating data before dashboard refreshes</li>
               </ul>
+
             </div>
           </div>
         </div>
@@ -1505,11 +1588,24 @@
               <h4 class="fw-bold">HR Data Analyst</h4>
               <h5>Jul 2021 – Jun 2022</h5>
               <p><em>BimSrv LLP, New Delhi, India</em></p>
+
+              <!-- Focus -->
+          
+
+              <p class="mb-2">
+                <span class="focus-badge">Focus</span>
+                <span class="focus-text">
+                  Recruitment Analytics • Attrition Tracking • Excel Reporting
+                </span>
+              </p>
+
               <ul>
-                <li>Analyzed HR datasets including attendance, turnover, and recruitment metrics to support workforce planning and decision-making</li> 
-                <li>Built interactive Excel dashboards with advanced formulas and pivot tables for real-time HR insights</li> 
-                <li>Developed KPI dashboards to track hiring efficiency, time-to-fill, and departmental performance, improving HR reporting accuracy</li>
+                <li>Decomposed time-to-fill into approval lag, sourcing duration, interview cycles, and offer-to-join time to identify recruitment delays by role and department</li>
+                <li>Segmented employee attrition into 0–30, 31–90, 91–180, and 180+ day buckets and analyzed patterns by tenure and attendance to identify early attrition risks</li>
+                <li>Maintained monthly HR tracking reports in Excel by consolidating employee master data, attendance records, and recruitment pipelines</li>
+                <li>Supported HR operations by preparing recurring reports for leadership review and workforce planning discussions</li>
               </ul>
+
             </div>
           </div>
         </div>
@@ -2289,7 +2385,7 @@
             <i class="bi bi-envelope flex-shrink-0 text-primary fs-4 me-3"></i>
             <div>
               <h3>Email</h3>
-              <p><a href="mailto:gupta.sanch99@gmail.com">gupta.sanch99@gmail.com</a></p>
+              <p><a href="mailto:sanchigupta0412@gmail.com">sanchigupta0412@gmail.com</a></p>
             </div>
           </div>
 
